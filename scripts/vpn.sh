@@ -4,7 +4,7 @@ CACHE_FILE="/home/phate/scripts/vpn_list.txt"
 
 # Function to retrieve and cache the list of IP addresses
 cache_ip_list() {
-    sudo tailscale exit-node list | awk 'NR>1 {print $1, $3}' > "$CACHE_FILE"
+    sudo tailscale exit-node list | awk 'NR>1 {print $1, $3",", $4}' > "$CACHE_FILE"
 }
 
 # Function to display menu and select IP
