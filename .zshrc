@@ -68,6 +68,7 @@ alias ascii='~/dotfiles/scripts/figlet.sh' # figlet for ASCII
 
 # Additional aliases
 alias shl='Hyprland' # start Hyprland; for use after tty login
+alias vpn='~/dotfiles/scripts/vpn.sh' # tailscale vpn. uses cached exit node list for vpn selection. check script for more
 
 # Display Pokemon
 pokemon-colorscripts --no-title -r 1-3
