@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CACHE_FILE="/home/phate/scripts/vpn_list.txt"
+CACHE_FILE="$HOME/scripts/vpn_list.txt"
 
 # Function to retrieve and cache the list of IP addresses
 cache_ip_list() {
